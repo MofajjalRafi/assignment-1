@@ -1,7 +1,7 @@
 "use client";
 
 import { Menu, ShoppingCart, X } from "lucide-react";
-
+import logo from "../assets/logo.png"
 export function Header({ isMobileMenuOpen, setIsMobileMenuOpen }) {
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -26,7 +26,7 @@ export function Header({ isMobileMenuOpen, setIsMobileMenuOpen }) {
 
           {/* Logo */}
           <div className="text-2xl font-bold tracking-wide">
-            SP<span className="text-[#ffa800]">O</span>RTS
+            <img src={logo} alt="" />
           </div>
 
           {/* Desktop Navigation */}
