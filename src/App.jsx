@@ -9,7 +9,7 @@ import { ProductGrid } from "./components/ProductGrid";
 import { Pagination } from "./components/Pagination";
 import { DesktopSidebar } from "./components/DesktopSidebar";
 import { Footer } from "./components/Footer";
-
+import ProductsImage from "./assets/products.png";
 function App() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -24,7 +24,7 @@ function App() {
       reviews: 10,
       inStock: true,
       onSale: true,
-      image: "/src/assets/products.png",
+      image: ProductsImage,
     },
     {
       id: 2,
@@ -36,7 +36,7 @@ function App() {
       reviews: 10,
       inStock: true,
       onSale: false,
-      image: "/src/assets/products.png",
+      image: ProductsImage,
     },
     {
       id: 3,
@@ -48,7 +48,7 @@ function App() {
       reviews: 10,
       inStock: false,
       onSale: false,
-      image: "/src/assets/products.png",
+      image: ProductsImage,
     },
     {
       id: 4,
@@ -60,7 +60,7 @@ function App() {
       reviews: 10,
       inStock: true,
       onSale: true,
-      image: "/src/assets/products.png",
+      image: ProductsImage,
     },
     {
       id: 5,
@@ -72,7 +72,7 @@ function App() {
       reviews: 10,
       inStock: true,
       onSale: false,
-      image: "/src/assets/products.png",
+      image: ProductsImage,
     },
     {
       id: 6,
@@ -84,7 +84,7 @@ function App() {
       reviews: 10,
       inStock: true,
       onSale: false,
-      image: "/src/assets/products.png",
+      image: ProductsImage,
     },
     {
       id: 7,
@@ -96,7 +96,7 @@ function App() {
       reviews: 10,
       inStock: true,
       onSale: true,
-      image: "/src/assets/products.png",
+      image: ProductsImage,
     },
     {
       id: 8,
@@ -108,7 +108,7 @@ function App() {
       reviews: 10,
       inStock: true,
       onSale: false,
-      image: "/src/assets/products.png",
+      image: ProductsImage,
     },
     {
       id: 9,
@@ -120,7 +120,7 @@ function App() {
       reviews: 10,
       inStock: false,
       onSale: false,
-      image: "/src/assets/products.png",
+      image: ProductsImage,
     },
   ];
 

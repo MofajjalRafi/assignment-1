@@ -1,5 +1,5 @@
 import { ProductCard } from "./ProductCard";
-
+import ProductsImage from "../assets/products.png";
 export function ProductGrid({ products }) {
   const defaultProducts = [
     {
@@ -12,7 +12,7 @@ export function ProductGrid({ products }) {
       reviews: 10,
       inStock: true,
       onSale: true,
-      image: "/src/assets/products.png",
+      image: ProductsImage,
     },
     {
       id: 2,
@@ -24,7 +24,7 @@ export function ProductGrid({ products }) {
       reviews: 10,
       inStock: false,
       onSale: false,
-      image: "/src/assets/products.png",
+      image: ProductsImage,
     },
     {
       id: 3,
@@ -36,7 +36,7 @@ export function ProductGrid({ products }) {
       reviews: 10,
       inStock: true,
       onSale: false,
-      image: "/src/assets/products.png",
+      image: ProductsImage,
     },
     {
       id: 4,
@@ -48,7 +48,7 @@ export function ProductGrid({ products }) {
       reviews: 10,
       inStock: true,
       onSale: true,
-      image: "/src/assets/products.png",
+      image: ProductsImage,
     },
     {
       id: 5,
@@ -60,7 +60,7 @@ export function ProductGrid({ products }) {
       reviews: 10,
       inStock: true,
       onSale: false,
-      image: "/src/assets/products.png",
+      image: ProductsImage,
     },
     {
       id: 6,
@@ -72,7 +72,7 @@ export function ProductGrid({ products }) {
       reviews: 10,
       inStock: true,
       onSale: false,
-      image: "/src/assets/products.png",
+      image: ProductsImage,
     },
   ];
 

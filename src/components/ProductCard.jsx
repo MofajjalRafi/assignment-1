@@ -1,5 +1,5 @@
 import { Star, Heart, Plus } from "lucide-react";
-
+import ProductsImage from "../assets/products.png"
 export function ProductCard({
   name,
   category,
@@ -20,11 +20,7 @@ export function ProductCard({
       )}
 
       <div className="aspect-square bg-[#eceff1] flex items-center justify-center p-4">
-        <img
-          src={image || "/src/assets/products.png"}
-          alt={name}
-          className="w-full h-full object-contain"
-        />
+        <img src={image || ProductsImage} alt={name} className="w-full h-full object-contain" />
       </div>
 
       <div className="p-3">
@@ -46,9 +42,7 @@ export function ProductCard({
         <div className="flex items-center gap-2 mb-2">
           <span className="font-bold text-lg">${price}</span>
           {originalPrice && (
-            <span className="text-sm text-gray-500 line-through">
-              ${originalPrice}
-            </span>
+            <span className="text-sm text-gray-500 line-through">${originalPrice}</span>
           )}
         </div>
 
@@ -56,9 +50,7 @@ export function ProductCard({
           {inStock ? (
             <span className="text-xs text-green-600 font-medium">In Stock</span>
           ) : (
-            <span className="text-xs text-red-600 font-medium">
-              Out of Stock
-            </span>
+            <span className="text-xs text-red-600 font-medium">Out of Stock</span>
           )}
         </div>
 
